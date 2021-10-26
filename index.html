@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="js.js"></script>
+
+    <title>Alex Fernandez</title>
+  </head>
+
+  <body>
+    <div id="hora"></div>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#conocimientos">Conocimientos</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <!-- <li><a href="#servicios">Servicios</a></li> -->
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div id="inicio" class="content">
+      <h1>ALEX <br />FERNANDEZ</h1>
+      <span id="subtitulo">Creative Web & App Developer</span>
+    </div>
+
+    <div id="conocimientos" class="content">
+      <p class="title">Conocimientos</p>
+
+      <div class="flex-container">
+        <div class="item">
+          <img src="img/html.png" alt="HTML5" />
+        </div>
+
+        <div class="item">
+          <img src="img/css3.png" alt="CSS3" />
+        </div>
+
+        <div class="item">
+          <img src="img/js.png" alt="JavaScript" />
+        </div>
+
+        <div class="item">
+          <img src="img/git.png" alt="Git" />
+        </div>
+
+        <div class="item">
+          <img src="img/symfony.png" alt="Symfony" />
+        </div>
+
+        <div class="item">
+          <img src="img/docker.png" alt="Docker" />
+        </div>
+
+        <div class="item">
+          <img src="img/angular.png" alt="Angular" />
+        </div>
+
+        <div class="item">
+          <img src="img/vue.png" alt="VUE" />
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="portafolio" class="content">
+      <p class="title">Portafolio</p>
+
+      <div class="flex-container">
+        <div class="card">
+          <a href="https://www.nike.com"
+            ><img src="img/nike.png" alt="NIKE"
+          /></a>
+        </div>
+
+        <div class="card">
+          <a href="https://www.amazon.com"
+            ><img src="img/amazon.svg" alt="AMAZON"
+          /></a>
+        </div>
+
+        <div class="card">
+          <a href="https://www.grifols.com"
+            ><img src="img/grifols.svg" alt="GRIFOLS"
+          /></a>
+        </div>
+
+        <div class="card">
+          <a href="https://www.audi.com"
+            ><img src="img/audi.png" alt="AUDI"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <hr /> -->
+
+    <!-- <div id="servicios" class="content">
+      <p class="title">Servicios</p>
+    </div> -->
+
+    <hr />
+
+    <div id="contacto" class="content">
+      <p class="title">Contacto</p>
+
+      <div class="container">
+        <form action="">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre...">
+      
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos" placeholder="Apellido...">
+      
+          <label for="pais">País</label>
+          <select id="pais" name="pais">
+            <option value="España">España</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Francia">Francia</option>
+          </select>
+      
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu consulta..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <div id="social">
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a class="dribbble" href="#"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="data"></div>
+        <div id="dies"></div>
+
+        <hr />
+        <p id="copyright">
+          Copyright &copy; 2020 All Rights Reserved by Alex Fernandez
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
